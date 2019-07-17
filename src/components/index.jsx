@@ -10,6 +10,7 @@ import "./index.css";
 
 class App extends Component {
   componentDidMount() {
+  console.log(this.props)
     this.props.getQuestions();
   }
   handleComplete = () => {
@@ -36,7 +37,7 @@ class App extends Component {
       <Layout element="main">
         {results ? (
           <QuizResults
-            results={results}
+          results={results}
           />
         ) : (
           <Quiz

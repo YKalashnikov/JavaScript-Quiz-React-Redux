@@ -3,6 +3,7 @@ const express = require("express");
 const server = express();
 const quiz = require("./quiz.json");
 server.use(express.json());
+
 server.get("/api/quiz", (req, res) => {
   res.json({ ok: true, quiz });
 });
