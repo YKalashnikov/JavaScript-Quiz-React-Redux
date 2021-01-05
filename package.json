@@ -5,7 +5,7 @@
   "dependencies": {
     "@codedojo/mdc-react": "^0.7.12",
     "@material-ui/core": "^3.6.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "express": "^4.16.4",
     "markdown-it": "^8.4.2",
     "nodemon": "^1.18.8",
